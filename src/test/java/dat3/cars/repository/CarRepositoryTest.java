@@ -5,11 +5,9 @@ import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-@DataJpaTest
+//@DataJpaTest
 class CarRepositoryTest {
 
     @Autowired
     CarRepository carRepository;
-
-
 }
